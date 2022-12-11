@@ -1,0 +1,20 @@
+{
+    "name": "ai-image",
+    "version": "1.0.0",
+    "description": "an ai image generetor interface using DALL-E 2",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "dev": "nodemon index"
+    },
+    "author": "Jaizon Carlos",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "openai": "^3.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
